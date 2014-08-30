@@ -1,0 +1,22 @@
+{
+    "name": "pimenta/domain",
+    "description": "Event sourcing, using http://buttercup-php.github.io/ as an example",
+    "require": {
+       "rhumsaa/uuid": "~2.7"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },    
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jildert Miedema",
+            "email": "jildert@pimenta.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pimenta\\Domain\\": "src/"
+        }
+    }
+}
